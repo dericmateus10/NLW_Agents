@@ -1,0 +1,66 @@
+# Dependências
+/node_modules/
+/.pnp/
+/.pnp.js
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Pastas de build/output
+/dist/
+/build/
+/out/
+/lib/
+/coverage/
+
+# Arquivos de ambiente
+.env
+.env.*.local
+!.env.example
+
+# Configurações de editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Ferramentas de teste
+/jest-cache/
+/jest.config.js
+/coverage/
+
+# Ferramentas de bundling
+.cache/
+.cache-loader/
+
+# Dependências lock (se quiser ignorar apenas quando gerado automaticamente)
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# Outros artefatos
+*.tgz
+*.zip
+
+# Logs de depuração do Prisma (se usar Prisma)
+/prisma/migrations/
+
+# Ajustes específicos (se usar Docker)
+/docker-compose.override.yml
+
+# Arquivos de histórico ou backup
+*.bak
+*.swp
+*~
